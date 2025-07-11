@@ -1,0 +1,57 @@
+/*var*/
+:root{
+    --pc-category-hov-color: #890e17;
+    --pc-category-big-size: 15px;
+    --pc-category-big-color: #000;
+    --logo-height: 30px;
+}
+/*opt*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: transparent;
+}
+button, input{
+    font-family: 'Yantramanav', 'Noto sans KR', 'sans-serif';
+}
+button:hover{
+    color: var(--pc-category-hov-color);
+}
+img{
+    border: 0;
+    vertical-align: top;
+}
+/*header*/
+.header{
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    align-items: center;
+    padding: 14px 40px;
+}
+.hamber-momenu-account{
+    grid-column: 1 /3;
+    grid-row: 1 / 2;
+}
+.logo-area{
+    grid-column: 6 / 11;
+    grid-row: 1 / 2;
+}
+.logo-area img{
+    display: block;
+    max-width: 100%;
+    height: var(--logo-height);
+    margin: 0 auto;
+}
+.account-area{
+    grid-column: 14 / 16;
+    grid-row: 1 / 2;
+}
