@@ -69,16 +69,13 @@
             display: table;
             clear: left;
         }
-        .float{
-            width: 25%;
-            float: left;
-        }
         .card{
+            padding: 10px;
             background-color: white;
-            height: 100%;
             text-align: center;
             font-weight: bold;
             font-size: 30px;
+            position: relative;
         }
         .card h1{
             line-height: 30px;
@@ -99,22 +96,25 @@
             border: 1px solid yellow;
             color: yellow;
         }
-        .circle{
-            background-color: white;
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            margin: 0 auto;
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 10px;
-            margin-top: -20px;
-            text-align: center;
-            line-height: 80px;
+        .circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: white;
+        border: 1px solid currentColor;
+        line-height: 50px;
+        position: absolute;
+        top: -25px;
+        left: calc(50% - 25px);
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.3), 0px 0 15px rgba(0,0,0,0.15);
         }
         p{
             margin-bottom: 20px;
         }
         .box1{
-            padding-left: 10px;
+            float: left;
+            padding: 10px;
+            width: 25%;
         }
     </style>
 </head>
@@ -149,28 +149,28 @@
     -->
     <div class="container">
         <div class="blue box1">
-            <div class="card float ">
+            <div class="card">
             <div class="circle blue">
                 <p>icon</p>
             </div>
             <p>Cars</p><h1>234</h1></div>
             </div>
         <div class=" green box1">
-            <div class="card float ">
+            <div class="card">
             <div class="circle green">
                 <p>icon</p>
             </div>
             <p>Eyes</p><h1>9332</h1></div>
             </div>
         <div class=" red box1">
-            <div class="card float ">
+            <div class="card">
             <div class="circle red">
                 <p>icon</p>
             </div>
             <p>Hearts</p><h1>346</h1></div>
             </div>
         <div class=" yellow box1">
-            <div class="card float ">
+            <div class="card">
             <div class="circle yellow">
                 <p>icon</p>
             </div>
