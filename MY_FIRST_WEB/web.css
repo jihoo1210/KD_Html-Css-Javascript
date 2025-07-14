@@ -39,7 +39,7 @@ ul{
     width: 90%;
     height: 600px;
     margin: 40px auto;
-    background-image: url(../사진/landscape-landscape-7209222_1280.jpg);
+    background-image: url(../images/landscape-landscape-7209222_1280.jpg);
     background-position-y: -100px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@ ul{
 */
 /*footer*/
 footer{
-    background: url(../사진/landscape-landscape-7209222_1280.jpg) fixed;
+    background: url(../images/landscape-landscape-7209222_1280.jpg) fixed;
     background-position-y: -1600px;
     color: white;
     width: 90%;
