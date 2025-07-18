@@ -46,3 +46,4 @@ gal.addEventListener("click", function(event){
     text1.style.display = "none"
     text2.style.display = "block"
 });
+
